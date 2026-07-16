@@ -1,4 +1,6 @@
-Coffee Chain Business Intelligence Dashboard  
+Coffee Chain Business Intelligence Dashboard 
+
+[Dashboard Preview](images/Coffee_Sales_Dashboard.pdf)
 
 Project Overview  
 This project is a full end-to-end Business Intelligence solution built for a fictional Coffee Shop Chain operating multiple stores across Manhattan. The goal is to analyze sales performance, product trends, store efficiency, and time-based behavior using a cleaned dataset of 149,117 transactions.  
@@ -33,21 +35,13 @@ SQL (Exploratory analysis, validation)
 Power Query (Data transformation)  
 Excel (Initial cleaning)  
  
-Data Modeling  
-A Star Schema was used for optimal performance:  
-Fact Table  
-FactSales 
-  
-Dimension Tables  
-DateTable  
-DimStore  
-DimProduct  
- 
-Key Relationships  
-FactSales[Store_ID] - DimStore[Store_ID]  
-FactSales[Product_ID] - DimProduct[Product_ID]  
-FactSales[Actual_Date] - DateTable[Date]  
-FactSales[Hour] - DateTable[Hour]  
+Technical Highlights
+Star Schema data model
+Power Query transformations
+SQL exploratory analysis
+Advanced DAX measures
+Time Intelligence
+Drill-through pages 
  
 Key DAX Measures  
 Total Sales  
@@ -115,4 +109,4 @@ Author:
 Onyishi Peace Udoka  
 Aspiring Data Analyst   
 Excel | Power BI | SQL | Python | Data Modeling | Storytelling  
-  
+
